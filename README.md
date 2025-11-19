@@ -16,4 +16,4 @@
 - **CSS3**
 
 ## Ссылки
-- [Публичная страница на GitHub Pages](https://executorya.github.io/dz2/)
+- [Публичная страница на GitHub Pages](https://executorya.github.io/Avion/)
