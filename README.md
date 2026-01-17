@@ -17,3 +17,4 @@
 
 ## Ссылки
 - [Публичная страница на GitHub Pages](https://executorya.github.io/Avion/)
+  <img width="1968" height="1968" alt="2b9bceec18f6cbd2969ad55a3badd085" src="https://github.com/user-attachments/assets/6745c5c5-b15b-471d-9b88-87c30ccf7910" />
