@@ -2,9 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Avion</title>
 
   <link rel="stylesheet" href="style.css">
+   <!-- Мобильные стили -->
+ <link rel="stylesheet" href="mobile.css">
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
@@ -12,52 +16,47 @@
 <body>
 
   <!-- HEADER -->
-  <header class="header">
-    <div class="header__top container">
+<header class="header">
+  <div class="header__top container">
 
-      <button class="header__icon-button" aria-label="Search">
-        <img src="assets/icons/Search.png" alt="Search icon">
+    <button class="header__icon-button" aria-label="Search">
+      <img src="assets/icons/Search.png" alt="Search icon">
+    </button>
+
+    <div class="header__logo">Avion</div>
+
+
+    <div class="header__actions">
+      <button class="header__icon-button" aria-label="Cart">
+        <img src="assets/icons/Shopping--cart.png" alt="Cart icon">
       </button>
-
-      <div class="header__logo">Avion</div>
-
-      <div class="header__actions">
-        <button class="header__icon-button" aria-label="Cart">
-          <img src="assets/icons/Shopping--cart.png" alt="Cart icon">
-        </button>
-        <button class="header__icon-button" aria-label="Account">
-          <img src="assets/icons/User--avatar.png" alt="User account icon">
-        </button>
-      </div>
-
+      <button class="header__icon-button" aria-label="Account">
+        <img src="assets/icons/User--avatar.png" alt="User account icon">
+      </button>
     </div>
 
-<nav class="header__nav nav">
-  <div class="container">
-    <ul class="nav__list">
-      <li class="nav__item">
-        <a class="nav__link" href="#benefits">Benefits</a>
-      </li>
-      <li class="nav__item">
-        <a class="nav__link" href="#new-ceramics">New ceramics</a>
-      </li>
-      <li class="nav__item">
-        <a class="nav__link" href="#popular-products">Popular products</a>
-      </li>
-      <li class="nav__item">
-        <a class="nav__link" href="#about">About</a>
-      </li>
-      <li class="nav__item">
-        <a class="nav__link" href="#newsletter">Newsletter</a>
-      </li>
-      <li class="nav__item">
-        <a class="nav__link" href="#footer">Contacts</a>
-      </li>
-    </ul>
   </div>
-</nav>
 
-  </header>
+      <!-- Гамбургер -->
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+       <span class="menu-toggle__line"></span>
+        <span class="menu-toggle__line"></span>
+      <span class="menu-toggle__line"></span>
+    </button>
+
+  <nav class="nav" id="mainNav">
+    <ul class="nav__list">
+      <li class="nav__item"><a class="nav__link" href="#benefits">Benefits</a></li>
+      <li class="nav__item"><a class="nav__link" href="#new-ceramics">New ceramics</a></li>
+      <li class="nav__item"><a class="nav__link" href="#popular-products">Popular products</a></li>
+      <li class="nav__item"><a class="nav__link" href="#about">About</a></li>
+      <li class="nav__item"><a class="nav__link" href="#newsletter">Newsletter</a></li>
+      <li class="nav__item"><a class="nav__link" href="#footer">Contacts</a></li>
+    </ul>
+  </nav>
+  
+</header>
+
 
 
   <main>
@@ -341,3 +340,10 @@
   </div>
 
 </footer>
+<!-- Кнопка "Наверх" -->
+<button class="scroll-top" id="scrollTop" aria-label="Наверх">
+  ↑
+</button>
+<script src="scripts/menu.js"></script>
+</body>
+</html>
